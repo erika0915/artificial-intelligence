@@ -9,7 +9,7 @@
 - 목표: 이미지 → 숫자 분류
 
 ## 🧪 실험
-### Experiment 1: 기본 MLP
+### Experiment 1: [기본 MLP](https://github.com/erika0915/artificial-intelligence/blob/main/mlp/01_%EA%B8%B0%EB%B3%B8MLP%EB%AA%A8%EB%8D%B8.ipynb)
 
 - 구조: 2-layer MLP (784 → 32 → 10)
 - Activation: Sigmoid
@@ -20,7 +20,7 @@
   ![image](https://github.com/user-attachments/assets/3f01fd5b-b7a5-4bc6-9295-3c40524defa9)
 
 
-### Experiment 2: Deep MLP (은닉층 6개)
+### Experiment 2: [Deep MLP (은닉층 6개)](https://github.com/erika0915/artificial-intelligence/blob/main/mlp/02_DeepMLP%EB%AA%A8%EB%8D%B8.ipynb) 
 
 - 구조: 6-layer MLP (784 → 32 x 6 → 10)
 - Activation: Sigmoid
@@ -33,7 +33,7 @@
 
 
 
-### Experiment 3: Wide MLP (512 units)
+### Experiment 3: [Wide MLP (512 units)](https://github.com/erika0915/artificial-intelligence/blob/main/mlp/03_WideMLP%EB%AA%A8%EB%8D%B8.ipynb)
 
 - 구조: 2-layer MLP (784 → 512 → 10)
 - Activation: Sigmoid
@@ -45,7 +45,7 @@
 
 
 
-### Experiment 4: Activation Function 비교
+### Experiment 4: [Activation Function 비교](https://github.com/erika0915/artificial-intelligence/blob/main/mlp/04_activation_compare.ipynb)
 
 - 구조: 2-layer MLP (784 → 32 → 10)
 - Optimizer: SGD (lr=0.1)
@@ -60,7 +60,7 @@
 
 
 
-### Experiment 5: Optimizer 변경 (Adam)
+### Experiment 5: [Optimizer 변경 (Adam)](https://github.com/erika0915/artificial-intelligence/blob/main/mlp/05_optimizer_adam.ipynb) 
 
 - 구조: 2-layer MLP (784 → 512 → 10)
 - Activation: Sigmoid
@@ -73,7 +73,7 @@
 
 
 
-### Experiment 6: Learning Rate 비교 (Adam)
+### Experiment 6: [Learning Rate 비교 (Adam)](https://github.com/erika0915/artificial-intelligence/blob/main/mlp/06_lr_experiments.ipynb)
 
 - 구조: 2-layer MLP (784 → 512 → 10)
 - Activation: Sigmoid
