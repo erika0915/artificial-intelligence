@@ -28,6 +28,7 @@ Convolutional Layer에서 정해야 할 **Hyperparameter** 로는 Filter 크기,
 Convolutional Layer로 계산된 feature map 의 크기를 줄여 연산량을 줄이는 역할을 한다. 
 Convolutional Layer와 달리 단순 계산만 진행하기 때문에 학습한 가중치는 따로 없다. 
 또한 Pooling Layer는 모든 Convolution Layer에 적용할 필요는 없으며 선택사항이다. 
+
 <img src = "https://github.com/user-attachments/assets/c7f5b1f1-7a28-4fc8-93c4-aaf496228347" width = "300"/>
 
 ### 종류 
